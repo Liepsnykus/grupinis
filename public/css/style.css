@@ -15,3 +15,7 @@
     width: 150px;
     height: 1px;
 }
+
+.btn:focus {
+    box-shadow: unset;
+}
