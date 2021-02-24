@@ -14,3 +14,13 @@
 
 <body>
 
+    <div class="cover">
+        <div class="container d-flex h-100 justify-content-center align-content-center flex-wrap">
+            <div class="ml-sm-2">
+                <h1>Poilsis</h1>
+                <p class="cover-SEO-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sit esse cupiditate veniam et sunt aut, ex suscipit odio alias laborum iure doloremque odit, incidunt quidem ipsa rerum illum quod praesentium perferendis assumenda sapiente. Expedita cupiditate excepturi consequuntur ea corrupti?</p>
+            </div>
+            <div class="cover-spacer"></div>
+        </div>
+
+    </div>
