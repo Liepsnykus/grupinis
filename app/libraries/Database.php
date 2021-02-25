@@ -24,7 +24,7 @@ class Database
     public function __construct()
     {
         // set dns
-        $dns = "mysql:host=$this->host;dbname=$this->dbName;";
+        $dns = "mysql:host=$this->host;dbname=$this->dbName;charset=utf8;";
 
         // set some connection options
         $options = [

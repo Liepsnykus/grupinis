@@ -1,20 +1,23 @@
 <?php
-// Pages class responsible for controlin Pages
+
 class Pages extends Controller
 {
+    private $productModel;
+
     public function __construct()
     {
-        // echo 'hello form pages controller';
+        $this->productModel = $this->model('Product');
     }
 
     public function index()
     {
-        // create some data to load into vie
+ 
+        $products = $this->productModel->getAllProducts();
         $data = [
             'title' => 'Welcome to ' . SITENAME,
+            'products' => $products
         ];
 
-        // load the view
         $this->view('pages/index', $data);
     }
 }
