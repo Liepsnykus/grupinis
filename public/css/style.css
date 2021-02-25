@@ -1,3 +1,10 @@
+/* body {
+    height: 100%;
+} */
+.wrapper {
+    min-height: 100vh;
+    margin-bottom: -50px;
+}
 .cover {
     width: 100%;
     background-image: url('https://sgpsychology.co.za/wp-content/uploads/2016/07/relaxation.jpg');
@@ -9,13 +16,90 @@
 
 .cover p {
     max-width: 400px;
+
 }
 
 .cover-spacer {
-    width: 150px;
+    width: 300px;
     height: 1px;
 }
 
 .btn:focus {
     box-shadow: unset;
+}
+
+.filterContainer {
+
+    min-width: 250px;
+
+}
+
+.filterContainer i {
+    font-size: 20;
+    color: rgb(207, 68, 133);
+  
+}
+
+.products-container > div:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 1px 3px 10px 2px rgba(3, 3, 3, 0.096);
+    transition: 0.2s;
+}
+
+.priceTag div {
+     
+        font-weight: 600;
+        font-size: 20px;
+    }
+.priceTag h2 {
+    color: rgb(207, 68, 133);
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.details {
+    font-size: 14px;
+}
+.details i {
+    font-size: 18px;
+    color: rgb(207, 68, 133);
+    margin-bottom: 15px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.push {
+    height: 50px;
+}
+
+.footerContainer {
+    height: 50px;
+    background-color: rgb(150, 192, 216);
+}
+
+.footerContainer {
+    color: white;
+}
+
+.footerBtn {
+    padding: 10px;
+}
+
+.footerBtn i {
+    font-size: 18px;
+    
+}
+.footerBtn:hover {
+    transform: scale(1.03);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.top-0{
+    top: 0px;
 }
